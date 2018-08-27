@@ -1,0 +1,50 @@
+﻿@model IEnumerable<FlightReservartion.DAL.Flight>
+
+@{
+    ViewBag.Title = "Historic";
+}
+
+<h2>Flight</h2>
+
+<p>
+    @Html.ActionLink("Flight Creation", "Create" , new { @class = "btn btn-primary", @style = "color:white" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Departure)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Destination)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Distance) (Km)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FuelConsumption) (Euro)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Departure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Destination)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Distance)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FuelConsumption)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Flight_id })
+        </td>
+    </tr>
+}
+
+</table>

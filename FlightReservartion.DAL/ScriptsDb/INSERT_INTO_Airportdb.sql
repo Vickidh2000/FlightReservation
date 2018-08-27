@@ -1,0 +1,13 @@
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (1,'Zaventem','50.8854878','4.4709968');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (2,'New York', '40.7127753','-74.0059728');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (3,'Bujmbura','-3.361378','29.3598782');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (4,'Moscou','55.755826',	'37.6172999');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (5,'New delhi','28.6139391','77.2090212');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (6,'Kigali','-1.970578','30.1044288');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (7,'Zaventem','50.8854878','4.4709968');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (8,'Charle de gaule','48.873354','2.2947073');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (9,'Jeans François Kennedy','46.762843','-71.130933');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (10,'Amsterdam','52.3105386','4.7682744');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (11,'Hongkong','22.3700556','114.1535941');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (12,'Shangai','31.166832666','121.452164858');
+INSERT INTO Airport  (Airport_id,Name,Latitude,Longitude) values (1333,'Narita','35.765786','140.386347');
